@@ -236,7 +236,7 @@ if __name__ == "__main__":
     
     if mode == "video":
         # 视频预测
-        video_path = "/data/tib_ground1/origin_videos/test_videos/Img 4971.mp4"  # 修改为您的输入视频路径
+        video_path = "/data/tib_ground1/origin_videos/test_videos/test_video1.mp4"  # 修改为您的输入视频路径
         output_base_path = "/data/tib_ground1/predict_result/"
         
         # 自动生成输出文件名：输入视频名_模型权重名_批次信息.mp4
